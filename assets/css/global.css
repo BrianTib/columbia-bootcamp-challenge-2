@@ -1,0 +1,33 @@
+:root {
+    --primary-color: rgb(49, 52, 61);
+    --secondary-color: rgb(146, 204, 206);
+    --text-color: rgb(68, 88, 119);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* This fixes navigation by anchor links */
+html {
+    scroll-padding-top: 65px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+a {
+    cursor: pointer;
+}
