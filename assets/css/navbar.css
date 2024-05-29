@@ -32,25 +32,10 @@ nav > ul {
     list-style: none;
 }
 
-/* This is displayed when the hamburger menu is clicked */
-nav.open > ul {
-    background: var(--primary-color);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px 0;
-    position: absolute;
-    right: 0;
-    top: 65px;
-    width: 100%;
-    z-index: 5;
-}
-
 /* Make the after look a bit different for the hamburger menu */
 /* nav.open > ul > li::after {
     background: var(--primary-color);
 } */
-
 
 nav > ul > li > a {
     width: 100%; 
@@ -69,6 +54,23 @@ nav > #hamburger-menu {
 
 nav > #hamburger-menu {
     fill: var(--secondary-color);
+}
+
+/* This fixes an issue when using responsive viewport */
+@media screen and (max-width: 768px) {
+    /* This is displayed when the hamburger menu is clicked */
+    nav.open > ul {
+        background: var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+        position: absolute;
+        right: 0;
+        top: 65px;
+        width: 100%;
+        z-index: 5;
+    }
 }
 
 @media screen and (min-width: 768px) {
