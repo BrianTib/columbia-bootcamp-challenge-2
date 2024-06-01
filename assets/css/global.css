@@ -20,9 +20,22 @@ html {
     scroll-padding-top: 65px;
 }
 
+
 body {
     margin: 0;
     padding: 0;
+    /*
+        Fun Fact: Roboto, designed by Christian Robertson and released in 2011,
+        is a versatile and modern sans-serif typeface that was initially
+        developed for the Android operating system. One fun fact about
+        Roboto is that it is often described as having a "dual nature."
+        This means it combines the geometric shapes of traditional
+        grotesque typefaces with friendly and open curves, giving it a
+        mechanical skeleton with a touch of human warmth. This unique
+        characteristic helps Roboto maintain readability and appeal across
+        different devices and screen resolutions, making it a popular choice
+        for digital interfaces.
+    */
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     line-height: 1.5;
